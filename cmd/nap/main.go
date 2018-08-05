@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	nap "github.com/vndr/nap/cmd"
+	nap "github.com/vndr/nap"
 )
 
 var api = nap.NewAPI("https://httpbin.org")
